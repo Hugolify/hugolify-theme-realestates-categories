@@ -1,0 +1,18 @@
+module:
+  mounts:
+    - source: archetypes
+      target: archetypes
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: i18n
+      target: i18n
+    - source: layouts
+      target: layouts
+
+# Default
+permalinks:
+  realestates_types: /realestates/types/:slug/
+taxonomies:
+  realestates_type: realestates_types
