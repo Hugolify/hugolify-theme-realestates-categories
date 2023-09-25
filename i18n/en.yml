@@ -1,0 +1,8 @@
+realestates_types:
+  all: All properties types
+  discover: Discover properties type
+  latest: Latest properties types
+  more: Discover more properties types
+  title:
+    one: Type
+    other: Types

@@ -1,0 +1,5 @@
+{{ with .GetTerms "realestates_types" }}
+  {{ range . }}
+    <p class="type">{{ .Title }}</p>
+  {{ end }}
+{{ end }}

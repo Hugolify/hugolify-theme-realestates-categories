@@ -1,0 +1,8 @@
+realestates_types:
+  all: Tous les types de biens
+  discover: Découvrir le type de biens
+  latest: Derniers types de biens
+  more: Découvrir plus de types de biens
+  title:
+    one: Type
+    other: Types
