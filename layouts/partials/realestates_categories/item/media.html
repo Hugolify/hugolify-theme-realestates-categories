@@ -3,14 +3,8 @@
 {{ if .Scratch.Get "scrollsnap" }}
   {{ $mobile = site.Params.realestates.thumbnail.scrollsnap | default false }}
 {{ end }}
-<div class="media">
-  {{ with .Params.image}}
-    {{ partial "commons/image.html" (dict
-      "src" .src
-      "alt" .alt
-      "desktop" $desktop
-      "mobile" $mobile
-      "itemprop" "image"
-    ) }}
-  {{ end }}
-</div>
+{{ partial "commons/item/media.html" (dict
+    "context" .
+    "desktop" $desktop
+    "mobile" $mobile
+  ) }}

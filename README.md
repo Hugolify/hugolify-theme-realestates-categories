@@ -1,10 +1,10 @@
-# hugolify-theme-realestates-types
+# hugolify-theme-realestates-categories
 
 ## Install
-Edit `config/_default/module.yaml` to install the `hugolify-theme-realestates-types` module:
+Edit `config/_default/module.yaml` to install the `hugolify-theme-realestates-categories` module:
 ```yml
 imports:
-  - path: github.com/hugolify/hugolify-theme-realestates-types
+  - path: github.com/hugolify/hugolify-theme-realestates-categories
 ```
 
 ## Documentation

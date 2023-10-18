@@ -1,3 +1,3 @@
-module github.com/hugolify/hugolify-theme-realestates-types
+module github.com/hugolify/hugolify-theme-realestates-categories
 
 go 1.19

@@ -1,0 +1,5 @@
+{{ with .GetTerms "realestates_categories" }}
+  {{ range . }}
+    <p class="realestates_categories"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+  {{ end }}
+{{ end }}

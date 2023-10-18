@@ -13,6 +13,6 @@ module:
 
 # Default
 permalinks:
-  realestates_types: /realestates/types/:slug/
+  realestates_categories: /realestates/types/:slug/
 taxonomies:
-  realestates_type: realestates_types
+  realestates_category: realestates_categories
