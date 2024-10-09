@@ -16,3 +16,8 @@ permalinks:
   realestates_categories: /realestates/types/:slug/
 taxonomies:
   realestates_category: realestates_categories
+
+params:
+  admin:
+    collections:
+      realestates_categories: true
