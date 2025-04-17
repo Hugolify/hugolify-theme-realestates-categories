@@ -1,5 +1,5 @@
 {{ with .GetTerms "realestates_categories" }}
   {{ range . }}
-    <p class="realestates_categories">{{ partial "func/PrepareHTML" .Title }}</p>
+    <p class="realestates_categories">{{ partial "func/PrepareHTML.html" .Title }}</p>
   {{ end }}
 {{ end }}

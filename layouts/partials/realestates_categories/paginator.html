@@ -1,7 +1,7 @@
 {{- $realestates_not_sold := where .Pages "Params.offer.sold" "ne" true -}}
 {{- $paginator := (.Paginate $realestates_not_sold).Pages -}}
 {{- if $paginator -}}
-  {{- $atf := cond (partial "func/HasImageHero" .) false true -}}
+  {{- $atf := cond (partial "func/HasImageHero.html" .) false true -}}
   {{ partial "realestates_categories/items" (dict "pages" $paginator "abovethefold" $atf) }}
   {{ partial "nav/pagination.html" . }}
 {{- else -}}
