@@ -1,0 +1,11 @@
+/* components/realestates-category.css */
+/*
+ * Usage: <article class="item realestates_category">
+ */
+@layer components {
+  .realestates_category {
+    .btn {
+      display: none;
+    }
+  }
+}
