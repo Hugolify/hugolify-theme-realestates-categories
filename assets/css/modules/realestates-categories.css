@@ -1,0 +1,5 @@
+/* css/modules/realestates-categories.css — hugolify-theme-realestates-categories entry point */
+
+/* Components */
+@import '../components/realestates-category.css';
+@import '../components/realestates-categories.css';
